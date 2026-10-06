@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./main.css" />
+		<link rel="stylesheet" href="./styles/contact.css" />
+	</head>
+	<body>
+		<div id="container">
+			<div class="navbar">
+				<nav>
+					<img src="./images/logo2.png" alt="logo" />
+					<ol>
+						<li><a href="./index.html">Home</a></li>
+						<li><a href="./about.html">About</a></li>
+						<li><a href="./services.html">Services</a></li>
+						<li><a href="./projects.html">Projects</a></li>
+					</ol>
+					<div class="nav-action">
+						<button>
+							<a href="./contact.html">Contact</a>
+						</button>
+					</div>
+				</nav>
+			</div>
+
+			<h2>Contact Us</h2>
+			<div class="box">
+				<div class="box-1">
+					<h1>Get in touch</h1>
+					<div class="con">
+						<img
+							src="./images/contact/logos/location.png"
+							alt="location"
+						/>
+						<p>Kampala, uganda</p>
+					</div>
+					<div class="con">
+						<img
+							src="./images/contact/logos/email.png"
+							alt="Email"
+						/>
+						<p>pearlheights@gmail.com</p>
+					</div>
+					<div class="con">
+						<img
+							src="./images/contact/logos/phone.png"
+							alt="phone"
+						/>
+						<p>+256 76175 3277</p>
+					</div>
+					<div class="con">
+						<img
+							src="./images/contact/logos/whatsapp.png"
+							alt="whatsapp"
+						/>
+						<p>+256 76878 5383</p>
+					</div>
+					<div class="con">
+						<img
+							src="./images/contact/logos/instagram.png"
+							alt="instagram"
+						/>
+						<p>@pearlheightsHieghts</p>
+					</div>
+				</div>
+
+				<div class="box-2">
+					<form action="/api/v1/contact" method="post">
+						<input
+							type="text"
+							placeholder="Your name"
+							required
+							name="name"
+						/>
+						<input
+							type="text"
+							placeholder="Your Email"
+							required
+							name="email"
+						/>
+						<textarea
+							placeholder="write you message"
+							name="message"
+							required
+						></textarea>
+						<button class="message" type="submit">
+							Send Message
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script src="./index.js"></script>
+	</body>
+</html>
