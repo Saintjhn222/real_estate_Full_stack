@@ -65,6 +65,7 @@ li a.active,
 li a:active {
 	color: orange;
 }
+footer img,
 nav img {
 	width: 100px;
 }
@@ -89,5 +90,43 @@ span {
 	color: orange;
 }
 #container {
-	margin-top: 10em;
+	margin-top: 0;
+	padding-top: 80px;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	height: auto;
+	padding: 2em;
+	color: white;
+	background-color: hsla(0, 0%, 10%, 0.404);
+	width: 100%;
+}
+.footer-links {
+	display: flex;
+	flex-direction: column;
+}
+.footer-links a {
+	color: orange;
+	text-decoration: none;
+	margin-top: 5px;
+}
+.c1 {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	gap: 15px;
+	width: fit-content;
+}
+.c1 img {
+	width: auto;
+	height: 20px;
+	justify-self: center;
+}
+footer h4 {
+	font-size: 20px;
+	margin-bottom: 1em;
+}
+.copyright {
+	align-content: center;
 }
